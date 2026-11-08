@@ -38,4 +38,4 @@ class Product:
         return self.__price * self.__quantity
 
     def __str__(self):
-        return f"{self.__name},{self.__price},{self.__quantity}"
+        return f"{self.__name}: {self.__price} x {self.__quantity} = {self.total_value}"
